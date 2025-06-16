@@ -40,7 +40,7 @@ public class HeaderValidation {
     @Test
     public void validateAuthorizationHeader() {
         Response response = given()
-                .header("Authorization", "Bearer sample_token") // Replace with actual token
+                .header("Authorization", "Bearer sample_token") 
                 .when()
                 .get("/users/2")
                 .then()
