@@ -3,13 +3,12 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="api.test.ProductAPITests">
+      <class name="api.test.HeaderValidationTest">
         <methods>
-          <include name="testUpdateProduct_Negative" invocation-numbers="0 1"/>
-          <include name="testCreateProduct_Positive"/>
-          <include name="testCreateProduct_Negative" invocation-numbers="0 1"/>
+          <include name="validateAuthorizationHeader"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- api.test.ProductAPITests -->
+      </class> <!-- api.test.HeaderValidationTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

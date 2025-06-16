@@ -11,7 +11,7 @@ import api.utilities.ConfigManager;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class HeaderValidation {
+public class HeaderValidationTest {
 
     @BeforeClass
     public void setup() {
