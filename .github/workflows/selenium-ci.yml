@@ -43,3 +43,9 @@ jobs:
           cd ${{ github.workspace }}/RestAutomation
           mvn install
           mvn test -DsuiteXmlFile=testng.xml
+
+      - name: Upload Extent Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: ExtentReports
+          path: ${{ github.workspace }}/RestAutomation/reports/ExtentReport.html
