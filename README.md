@@ -10,13 +10,6 @@ This framework automates CRUD operations for REST APIs using TestNG and RestAssu
 - **Payload Generation**: Automatic conversion of DB rows to Java objects
 - **CI/CD Ready**: Includes GitHub Actions workflow
 
-## 🛠 Setup
-
-### Prerequisites
-- Java 17+
-- Maven 3.8+
-- MySQL/PostgreSQL (or your target database)
-- TestNG plugin for your IDE
 
 ### Installation
 1. Clone the repository:
