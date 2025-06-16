@@ -27,4 +27,4 @@ jobs:
       - name: Run Selenium tests
         run: |
           cd ${{ github.workspace }}/RestAutomation
-          mvn test -DsuiteXmlFile=testing.xml
+          mvn test -DsuiteXmlFile=testng.xml
