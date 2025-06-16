@@ -1,153 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-16T20:28:55 IST" name="Suite" finished-at="2025-06-16T20:29:13 IST" duration-ms="18510">
+  <suite started-at="2025-06-16T22:48:31 IST" name="Suite" finished-at="2025-06-16T22:48:49 IST" duration-ms="17866">
     <groups>
     </groups>
-    <test started-at="2025-06-16T20:28:55 IST" name="Test" finished-at="2025-06-16T20:29:13 IST" duration-ms="18510">
+    <test started-at="2025-06-16T22:48:31 IST" name="Test" finished-at="2025-06-16T22:48:49 IST" duration-ms="17866">
       <class name="api.test.ProductAPITests">
-        <test-method signature="testCreateProduct_Positive(api.payload.Product)[pri:1, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:01 IST" name="testCreateProduct_Positive" description="Create product with valid data" data-provider="dbProducts" finished-at="2025-06-16T20:29:04 IST" duration-ms="2842" status="PASS">
+        <test-method signature="testCreateProduct_Positive(api.payload.Product)[pri:1, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:36 IST" name="testCreateProduct_Positive" description="Create product with valid data" data-provider="dbProducts" finished-at="2025-06-16T22:48:39 IST" duration-ms="2669" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Product@1e9469b8]]>
+                <![CDATA[api.payload.Product@57545c3f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateProduct_Positive -->
-        <test-method signature="testCreateProduct_Positive(api.payload.Product)[pri:1, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:04 IST" name="testCreateProduct_Positive" description="Create product with valid data" data-provider="dbProducts" finished-at="2025-06-16T20:29:05 IST" duration-ms="900" status="PASS">
+        <test-method signature="testCreateProduct_Positive(api.payload.Product)[pri:1, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:39 IST" name="testCreateProduct_Positive" description="Create product with valid data" data-provider="dbProducts" finished-at="2025-06-16T22:48:40 IST" duration-ms="899" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Product@45c80312]]>
+                <![CDATA[api.payload.Product@795f6681]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateProduct_Positive -->
-        <test-method signature="testCreateProduct_Negative(api.payload.Product)[pri:2, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:05 IST" name="testCreateProduct_Negative" description="Attempt to create product with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T20:29:06 IST" duration-ms="788" status="PASS">
+        <test-method signature="testCreateProduct_Negative(api.payload.Product)[pri:2, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:40 IST" name="testCreateProduct_Negative" description="Attempt to create product with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T22:48:41 IST" duration-ms="829" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Product@35563e4c]]>
+                <![CDATA[api.payload.Product@4cb00fa5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateProduct_Negative -->
-        <test-method signature="testCreateProduct_Negative(api.payload.Product)[pri:2, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:06 IST" name="testCreateProduct_Negative" description="Attempt to create product with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T20:29:07 IST" duration-ms="856" status="PASS">
+        <test-method signature="testCreateProduct_Negative(api.payload.Product)[pri:2, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:41 IST" name="testCreateProduct_Negative" description="Attempt to create product with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T22:48:42 IST" duration-ms="836" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Product@6744707b]]>
+                <![CDATA[api.payload.Product@4cb24e2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateProduct_Negative -->
-        <test-method signature="testGetProduct_Positive()[pri:3, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:07 IST" name="testGetProduct_Positive" description="Get existing product" finished-at="2025-06-16T20:29:08 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="888" status="PASS">
+        <test-method signature="testGetProduct_Positive()[pri:3, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:42 IST" name="testGetProduct_Positive" description="Get existing product" finished-at="2025-06-16T22:48:43 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProduct_Positive -->
-        <test-method signature="testGetProduct_Negative()[pri:4, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:08 IST" name="testGetProduct_Negative" description="Get non-existent product" finished-at="2025-06-16T20:29:08 IST" duration-ms="823" status="PASS">
+        <test-method signature="testGetProduct_Negative()[pri:4, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:43 IST" name="testGetProduct_Negative" description="Get non-existent product" finished-at="2025-06-16T22:48:43 IST" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProduct_Negative -->
-        <test-method signature="testUpdateProduct_Positive()[pri:5, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:08 IST" name="testUpdateProduct_Positive" description="Update product with valid data" finished-at="2025-06-16T20:29:09 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="861" status="PASS">
+        <test-method signature="testUpdateProduct_Positive()[pri:5, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:43 IST" name="testUpdateProduct_Positive" description="Update product with valid data" finished-at="2025-06-16T22:48:44 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateProduct_Positive -->
-        <test-method signature="testUpdateProduct_Negative(api.payload.Product)[pri:6, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:09 IST" name="testUpdateProduct_Negative" description="Attempt to update with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T20:29:10 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="824" status="PASS">
+        <test-method signature="testUpdateProduct_Negative(api.payload.Product)[pri:6, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:44 IST" name="testUpdateProduct_Negative" description="Attempt to update with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T22:48:45 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="875" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Product@762a10b6]]>
+                <![CDATA[api.payload.Product@5c5f0edc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateProduct_Negative -->
-        <test-method signature="testUpdateProduct_Negative(api.payload.Product)[pri:6, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:10 IST" name="testUpdateProduct_Negative" description="Attempt to update with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T20:29:11 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="892" status="PASS">
+        <test-method signature="testUpdateProduct_Negative(api.payload.Product)[pri:6, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:45 IST" name="testUpdateProduct_Negative" description="Attempt to update with invalid data" data-provider="invalidProductData" finished-at="2025-06-16T22:48:46 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="852" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[api.payload.Product@7e2c6702]]>
+                <![CDATA[api.payload.Product@74eec640]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateProduct_Negative -->
-        <test-method signature="testDeleteProduct_Positive()[pri:7, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:11 IST" name="testDeleteProduct_Positive" description="Delete existing product" finished-at="2025-06-16T20:29:13 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="1649" status="PASS">
+        <test-method signature="testDeleteProduct_Positive()[pri:7, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:46 IST" name="testDeleteProduct_Positive" description="Delete existing product" finished-at="2025-06-16T22:48:48 IST" depends-on-methods="api.test.ProductAPITests.testCreateProduct_Positive" duration-ms="1935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteProduct_Positive -->
-        <test-method signature="testDeleteProduct_Negative()[pri:8, instance:api.test.ProductAPITests@707194ba]" started-at="2025-06-16T20:29:13 IST" name="testDeleteProduct_Negative" description="Delete already deleted product" finished-at="2025-06-16T20:29:13 IST" duration-ms="718" status="PASS">
+        <test-method signature="testDeleteProduct_Negative()[pri:8, instance:api.test.ProductAPITests@34b9f960]" started-at="2025-06-16T22:48:48 IST" name="testDeleteProduct_Negative" description="Delete already deleted product" finished-at="2025-06-16T22:48:49 IST" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteProduct_Negative -->
       </class> <!-- api.test.ProductAPITests -->
-      <class name="api.test.HeaderValidation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.HeaderValidation@58a9760d]" started-at="2025-06-16T20:28:55 IST" name="setup" finished-at="2025-06-16T20:28:56 IST" duration-ms="868" status="PASS">
+      <class name="api.test.HeaderValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.HeaderValidationTest@6531a794]" started-at="2025-06-16T22:48:31 IST" name="setup" finished-at="2025-06-16T22:48:31 IST" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateAuthorizationHeader()[pri:0, instance:api.test.HeaderValidation@58a9760d]" started-at="2025-06-16T20:28:56 IST" name="validateAuthorizationHeader" finished-at="2025-06-16T20:29:00 IST" duration-ms="4376" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at api.test.HeaderValidation.validateAuthorizationHeader(HeaderValidation.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="validateAuthorizationHeader()[pri:0, instance:api.test.HeaderValidationTest@6531a794]" started-at="2025-06-16T22:48:31 IST" name="validateAuthorizationHeader" finished-at="2025-06-16T22:48:35 IST" duration-ms="3726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAuthorizationHeader -->
-        <test-method signature="validateResponseHeaders()[pri:0, instance:api.test.HeaderValidation@58a9760d]" started-at="2025-06-16T20:29:00 IST" name="validateResponseHeaders" finished-at="2025-06-16T20:29:01 IST" duration-ms="989" status="PASS">
+        <test-method signature="validateResponseHeaders()[pri:0, instance:api.test.HeaderValidationTest@6531a794]" started-at="2025-06-16T22:48:35 IST" name="validateResponseHeaders" finished-at="2025-06-16T22:48:36 IST" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateResponseHeaders -->
-      </class> <!-- api.test.HeaderValidation -->
+      </class> <!-- api.test.HeaderValidationTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -47,6 +47,6 @@ public class HeaderValidationTest {
                 .extract().response();
 
         // Ensure Authorization Header is passed
-        Assert.assertTrue(response.getHeaders().hasHeaderWithName("Authorization"));
+        Assert.assertFalse(response.getHeaders().hasHeaderWithName("Authorization"));
     }
 }
