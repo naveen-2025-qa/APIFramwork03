@@ -21,10 +21,10 @@ jobs:
 
       - name: Navigate to project directory & install dependencies
         run: |
-          cd APIFramwork03/RestAutomation
+          cd ${{ github.workspace }}/RestAutomation
           mvn install
 
       - name: Run Selenium tests
         run: |
-          cd APIFramwork03/RestAutomation
+          cd ${{ github.workspace }}/RestAutomation
           mvn test
