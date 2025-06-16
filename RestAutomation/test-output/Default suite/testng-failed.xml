@@ -6,8 +6,8 @@
       <class name="api.test.ProductAPITests">
         <methods>
           <include name="testUpdateProduct_Negative" invocation-numbers="0 1"/>
-          <include name="testCreateProduct_Negative" invocation-numbers="0 1"/>
           <include name="testCreateProduct_Positive"/>
+          <include name="testCreateProduct_Negative" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- api.test.ProductAPITests -->
     </classes>
