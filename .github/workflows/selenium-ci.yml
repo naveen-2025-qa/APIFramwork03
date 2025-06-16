@@ -19,8 +19,12 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Install dependencies
-        run: mvn install
+      - name: Navigate to project directory & install dependencies
+        run: |
+          cd ${{ github.workspace }}/RestAutomation
+          mvn install
 
       - name: Run Selenium tests
-        run: mvn test
+        run: |
+          cd ${{ github.workspace }}/RestAutomation
+          mvn test
