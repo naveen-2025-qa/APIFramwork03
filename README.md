@@ -21,4 +21,4 @@ This framework automates CRUD operations for REST APIs using TestNG and RestAssu
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/naveen-2025-qa/APIFramwork03.git
